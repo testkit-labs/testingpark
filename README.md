@@ -1,2 +1,2 @@
-<img src="repo/header.png" alt="Testkit Parkour Header" title="Testkit Parkour" />
+<img src="repo/header.webp" alt="Testkit Parkour Header" title="Testkit Parkour" />
 ---
