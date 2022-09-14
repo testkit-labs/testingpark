@@ -1,4 +1,3 @@
-<p align="center">
-  <img src="repo/header.webp" height="400" alt="Testkit Parkour Header" title="Testkit Parkour" />
-</p>
-<hr />
+![Testkit Parkour Header](repo/header.webp "Testkit Parkour")
+
+* * *
