@@ -1,2 +1,26 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import { Card, Heading, Hr, P } from "flowbite-svelte"
+  import { CursorArrowRays } from "svelte-heros-v2"
+  import ChallengeCard from "../components/ChallengeCard.svelte"
+</script>
+
+<Heading class="mb-2">Testing Park</Heading>
+<P class="max-w-2xl">
+  This is a playground to practice and challenge your testing skills. You can choose one of the challenges below and
+  create a test for it. At <a class="text-blue-700 hover:text-blue-500" href="https://testkit.app/?ref=testingpark_p">
+    Testkit,
+  </a>
+  we use this tool to test the functionality of our
+  <a class="text-blue-700 hover:text-blue-500" href="https://cypress-recorder.com" target="_blank">Cypress Recorder</a>
+  and our main application. The code is
+  <a class="text-blue-700 hover:text-blue-500" href="https://github.com/testkit-labs/testingpark" target="_blank">
+    fully open source on GitHub.
+  </a>
+</P>
+
+<Hr class="mb-6" />
+
+<Heading tag="h4" class="mb-3">Difficulty: Easy</Heading>
+<ChallengeCard href="/challenges/easy/clicking" title="Clicking" icon={CursorArrowRays}>
+  Click some buttons and links, and check if you get the correct output
+</ChallengeCard>
