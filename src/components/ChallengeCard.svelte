@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { Card } from "flowbite-svelte"
   import type { SvelteComponentTyped } from "svelte"
   export let title: string
   export let href: string
@@ -7,7 +6,7 @@
 </script>
 
 <a {href} class="group">
-  <Card class="group-hover:scale-105 transition-transform duration-500">
+  <div class="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 group-hover:scale-105 transition-transform duration-500">
     <div class="flex items-center justify-between">
       <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
       <svelte:component
@@ -18,5 +17,5 @@
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
       <slot />
     </p>
-  </Card>
+  </div>
 </a>

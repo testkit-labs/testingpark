@@ -24,3 +24,7 @@
 <ChallengeCard href="/challenges/easy/clicking" title="Clicking" icon={CursorArrowRays}>
   Click some buttons and links, and check if you get the correct output
 </ChallengeCard>
+
+  <ChallengeCard href="/challenges/easy/typing" title="Typing" icon={PencilSquare}>
+    Type some text into different types of inputs and check if you get the correct output
+  </ChallengeCard>
