@@ -1,16 +1,17 @@
 const config = {
-	content: [
-		'./src/**/*.{html,js,svelte,ts}',
-		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
-	],
+  content: ["./src/**/*.{html,js,svelte,ts}", "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}"],
 
-  darkMode: 'class',
+  darkMode: "class",
 
-	theme: {
-		extend: {}
-	},
+  theme: {
+    extend: {
+      screens: {
+        "3xl": "1740px",
+      },
+    },
+  },
 
-	plugins: [require('flowbite/plugin')]
-};
+  plugins: [require("flowbite/plugin")],
+}
 
-module.exports = config;
+module.exports = config
