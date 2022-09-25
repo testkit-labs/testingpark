@@ -12,14 +12,7 @@
     href="https://testkit.app/?ref=testingpark_p">
     Testkit,
   </a>
-  we use this tool to test the functionality of our
-  <a
-    class="text-blue-700 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400"
-    href="https://cypress-recorder.com"
-    target="_blank">
-    Cypress Recorder
-  </a>
-  and our main application. The code is
+  we use this tool to test the functionality of our Test Recorder and our main application. The code is
   <a
     class="text-blue-700 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-400"
     href="https://github.com/testkit-labs/testingpark"
