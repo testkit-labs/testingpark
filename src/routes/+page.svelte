@@ -1,6 +1,6 @@
 <script>
   import { Heading, Hr, P } from "flowbite-svelte"
-  import { CursorArrowRays, PencilSquare } from "svelte-heros-v2"
+  import { ArrowUpOnSquare, CursorArrowRays, HandRaised, Pencil, PencilSquare } from "svelte-heros-v2"
   import ChallengeCard from "../components/ChallengeCard.svelte"
 </script>
 
@@ -33,4 +33,21 @@
   <ChallengeCard href="/challenges/easy/typing" title="Typing" icon={PencilSquare}>
     Type some text into different types of inputs and check if you get the correct output
   </ChallengeCard>
+
+  <ChallengeCard href="/challenges/easy/forms" title="Forms" icon={Pencil}>
+    Fill out typical forms
+  </ChallengeCard>
+
+  <ChallengeCard href="/challenges/easy/uploading" title="Uploading" icon={ArrowUpOnSquare}>
+    Upload single or multiple files and check if you get the correct output
+  </ChallengeCard>
 </div>
+
+<Heading tag="h4" class="mt-12 mb-3">Difficulty: Medium</Heading>
+
+<div class="grid gap-8 grid-cols-1 auto-rows-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
+  <ChallengeCard href="/challenges/medium/kanban" title="Kanban Board" icon={HandRaised}>
+    A Kanban Board. Can you drag and drop things to where they belong?
+  </ChallengeCard>
+</div>
+
