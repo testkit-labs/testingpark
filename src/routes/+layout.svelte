@@ -16,7 +16,7 @@
   </svelte:fragment>
 </Toolbar>
 
-<div class="p-4 lg:px-6 xl:px-8 xl:py-6">
+<div class="p-4 lg:px-6 xl:px-8 xl:py-6 h-full w-full">
   <slot />
 </div>
 

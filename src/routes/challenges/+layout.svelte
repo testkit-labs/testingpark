@@ -10,4 +10,6 @@
   </Button>
 </div>
 
-<slot />
+<div class="h-full w-full">
+  <slot />
+</div>
