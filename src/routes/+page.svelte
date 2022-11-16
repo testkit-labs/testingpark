@@ -1,7 +1,15 @@
 <script>
   import { Heading, Hr, P } from "flowbite-svelte"
+  import { onMount } from "svelte"
   import { ArrowUpOnSquare, CursorArrowRays, HandRaised, Pencil, PencilSquare } from "svelte-heros-v2"
   import ChallengeCard from "../components/ChallengeCard.svelte"
+
+  onMount(() => {
+    console.log("This is a log")
+    console.error("This is an error")
+    console.warn("This is a warning")
+    console.info("This is an info")
+  })
 </script>
 
 <Heading class="mb-2">Testing Park</Heading>
