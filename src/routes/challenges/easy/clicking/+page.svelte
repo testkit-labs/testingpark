@@ -1,9 +1,15 @@
 <script>
   import { Button } from "flowbite-svelte"
+  import { onMount } from "svelte"
 
   let clicked = false
 
+  onMount(() => {
+    console.log("You're now in the clicking challenge")
+  })
+
   const onClick = () => {
+    console.log("Clicked!")
     clicked = true
     setTimeout(() => {
       clicked = false
