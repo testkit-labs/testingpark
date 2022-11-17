@@ -5,8 +5,13 @@
   import ChallengeCard from "../components/ChallengeCard.svelte"
 
   onMount(() => {
-    console.log("This is a log")
-    console.error("This is an error")
+    console.log("This is a log", {
+      foo: "bar",
+      baz: "qux",
+    })
+    console.error("This is an error", {
+      bar: "baz",
+    })
     console.warn("This is a warning")
     console.info("This is an info")
   })
