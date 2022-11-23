@@ -1,7 +1,7 @@
 <script>
   import { Heading, Hr, P } from "flowbite-svelte"
   import { onMount } from "svelte"
-  import { ArrowUpOnSquare, CursorArrowRays, HandRaised, Pencil, PencilSquare } from "svelte-heros-v2"
+  import { ArrowUpOnSquare, CursorArrowRays, HandRaised, Hashtag, Pencil, PencilSquare } from "svelte-heros-v2"
   import ChallengeCard from "../components/ChallengeCard.svelte"
 
   onMount(() => {
@@ -64,3 +64,11 @@
   </ChallengeCard>
 </div>
 
+
+<Heading tag="h4" class="mt-12 mb-3">Difficulty: Hard</Heading>
+
+<div class="grid gap-8 grid-cols-1 auto-rows-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
+  <ChallengeCard href="/challenges/hard/random" title="Randomized selectors" icon={Hashtag}>
+    Selectors are missing or randomized every time the page loads. Can you still find the right elements?
+  </ChallengeCard>
+</div>
