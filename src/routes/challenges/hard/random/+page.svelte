@@ -25,7 +25,7 @@
   data-test-id={getRandomString()}
   class="find-this-button"
   on:click={handleRandomTestIdButtonClick}
-  style="background:blueviolet; border-radius: 6px; padding: 8px 12px;">
+  style="background:blueviolet; border-radius: 6px; padding: 8px 12px; color: white; font-size: 14px;">
   {randomTestIdButtonClicked ? "You found me!" : "Random test id with static class"}
 </button>
 
@@ -33,6 +33,6 @@
   data-test-id={getRandomString()}
   class={getRandomString()}
   on:click={handleRandomButtonClick}
-  style="background:blueviolet; border-radius: 6px; padding: 8px 12px; margin-left: 20px;">
+  style="background:blueviolet; border-radius: 6px; padding: 8px 12px; margin-left: 20px; color: white; font-size: 14px;">
   {randomButtonClicked ? "You found me?!?!" : "Random test id with random class"}
 </button>
